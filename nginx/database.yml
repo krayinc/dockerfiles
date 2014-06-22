@@ -1,0 +1,8 @@
+integration:
+  adapter: mysql2
+  encoding: utf8
+  database: app_integration
+  pool: 5
+  username: root
+  password:
+  host: db
