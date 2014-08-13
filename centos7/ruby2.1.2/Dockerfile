@@ -8,7 +8,6 @@ RUN yum install -y gcc \
                    libffi-devel \
                    make \
                    openssl-devel \
-                   patch \
                    readline-devel \
                    tar
 
