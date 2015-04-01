@@ -15,5 +15,5 @@ RUN curl -L -s https://github.com/sstephenson/ruby-build/archive/master.tar.gz |
     /tmp/ruby-build-master/install.sh && \
     rm -fr /tmp/ruby-build-master
 
-RUN ruby-build -v 2.1.5 /usr/local
+RUN CONFIGURE_OPTS="--disable-install-rdoc" ruby-build -v 2.1.5 /usr/local
 RUN gem install bundler --no-rdoc --no-ri
